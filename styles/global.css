@@ -5,20 +5,14 @@
 }
 
 :root {
-  /* icons */
-  --main-red: #E3646E;
-  --main-purple: #BB72E9;
-  --main-blue: #3996DB;
-  --main-green: #82BC4F;
-  --main-yellow: #EABD5F;
-
   /* text-color */
-  --text-base-gray100: #0D0E11;
-  --text-base-gray200: #16181D;
-  --text-base-gray300: #292C34;
-  --text-base-gray400: #878EA1;
-  --text-base-gray500: #C0C4CE;
-  --text-base-gray700: #E2E4E9;
+  --main-red: #E3646E;
+  --base-gray100: #0D0E11;
+  --base-gray200: #16181D;
+  --base-gray300: #292C34;
+  --base-gray400: #878EA1;
+  --base-gray500: #C0C4CE;
+  --base-gray700: #E2E4E9;
   
   --font-title: 'Asap', sans-serif;
   --title-lg: 700 56px/120% var(--font-title);
@@ -31,4 +25,25 @@
   --font-text: 'Maven Pro',sans-serif;
   --text-md: 400 16px/140% var(--font-text);
   --text-sm: 400 14px/140% var(--font-text);
+}
+
+p {
+  font: var(--text-sm);
+  color: var(--base-gray400);
+}
+
+h1 {
+  font: var(--title-lg);
+  color: var(--base-gray700);
+}
+
+h2 {
+  font: var(--text-subtitle);
+  color: var(--base-gray500);
+  margin-bottom: 8px;
+}
+
+span {
+  font: var(--text-subtitle);
+  color: var(--main-red)
 }
