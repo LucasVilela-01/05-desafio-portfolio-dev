@@ -24,6 +24,17 @@ header div {
   align-items: center;
 }
 
+h1 {
+  font: var(--title-lg);
+  color: var(--base-gray700);
+}
+
+h2 {
+  font: var(--text-subtitle);
+  color: var(--base-gray500);
+  margin-bottom: 8px;
+}
+
 header div > p {
   margin-block: 20px 80px;
 }

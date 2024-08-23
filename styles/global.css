@@ -6,6 +6,7 @@
 
 :root {
   /* text-color */
+  --main-purple: #BB72E9;
   --main-red: #E3646E;
   --base-gray100: #0D0E11;
   --base-gray200: #16181D;
@@ -27,23 +28,26 @@
   --text-sm: 400 14px/140% var(--font-text);
 }
 
+h3 {
+  color: var(--base-gray700);
+  font: var(--title-md);
+}
+
 p {
   font: var(--text-sm);
   color: var(--base-gray400);
 }
 
-h1 {
-  font: var(--title-lg);
-  color: var(--base-gray700);
-}
-
-h2 {
-  font: var(--text-subtitle);
-  color: var(--base-gray500);
-  margin-bottom: 8px;
-}
-
 span {
   font: var(--text-subtitle);
   color: var(--main-red)
+}
+
+#card, .card-3 strong {
+  font: var(--title-sm);
+  color: var(--base-gray700);
+}
+
+#card, .card-3 p {
+  margin-top: 8px;
 }
